@@ -63,3 +63,4 @@ sns.scatterplot(correlation_matrix)
 plt.legend(bbox_to_anchor=(1.3, 1), loc='upper right', borderaxespad=0)
 
 #Which algorithm you got better accuracy? Can you justify why?
+Naive Bayes outperformed SVM in accuracy, achieving higher accuracy of 0.3721 compared to 0.2093. Naive Bayes achieved better precision, recall, and F1-score, with a weighted average precision of 0.40, recall of 0.37, and F1-score of 0.36. SVM's precision was higher but may be misleading due to data imbalances. Naive Bayes missed a significant number of positive samples and performed poorly in terms of recall. Overall, Naive Bayes outperformed SVM in accuracy, precision, recall, and F1-score
